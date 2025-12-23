@@ -1,4 +1,4 @@
-# Git_Day1_Task2
+#Task_1
 
 ## Creating a page steps: 
 1. Go to **Settings**  
