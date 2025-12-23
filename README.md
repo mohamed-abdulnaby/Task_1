@@ -1,15 +1,9 @@
-ssh-keygen -t ed25519 -C "mohamed_abdulnaby@icloud.com"
-#to add te SSH agent
-eval "$(ssh-agent -s)"
-ssh-add ~/.ssh/id_ed25519
+# Git_Day1_Task2
 
-#to add the public key to github
-cat ~/.ssh/id_ed25519.pub
-#and then copy the result to github-> settings-> SSH adn GPG keys-> New SSH key
+## Creating a page steps: 
+1. Go to **Settings**  
+2. Open **Pages**  
+3. Select branch → **main**  
+4. Click **Save**
 
-git remote set-url origin git@github.com:mohamed-abdulnaby/Task_1.git
-
-
-#to test the connection 
-ssh -T git@github.com
-
+page: https://mohamed-abdulnaby.github.io/Task_1/
